@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp">
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:layout_margin = "10dp"
+        card_view:cardCornerRadius="8dp"
+        android:background="#ff5d6f"
+        card_view:cardElevation="8dp"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:scrollIndicators="right">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/info"
+            android:text="hello world!"
+            android:clickable="true" />
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view_1"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        card_view:cardCornerRadius="8dp"
+        card_view:cardElevation="8dp"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:layout_margin = "10dp"
+        >
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:id="@+id/info_1"
+            android:text="hello world!"
+            android:background="#ff6c51"
+            android:password="false"
+            android:theme="@android:style/Animation.Activity" />
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view_2"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        card_view:cardCornerRadius="8dp"
+        android:background="#6464ff"
+        card_view:cardElevation="8dp"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:layout_margin = "10dp"
+        >
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:id="@+id/info_2"
+            android:text="hello world!"
+            android:background="#3ad4ff" />
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
+
